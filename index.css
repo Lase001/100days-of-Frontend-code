@@ -1,3 +1,91 @@
 body{
-  background-color: rgb(22, 17, 17);
+  background-color: rgb(55, 85, 95);
+}
+
+/* Contact page */
+li{
+  display: inline-block;
+  margin-right: 24px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 24px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+form{
+  background-color: white;
+  border: 1px solid #ccc ;
+  border-radius: 10px;
+  text-align: center;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 40px 80px 80px;
+}
+
+.form-heading{
+  font-size: 32px;
+  padding-top: 56px;
+  padding-bottom: 32px;
+}
+
+.input-item{
+  font-size: 18px;
+  padding-bottom: 12px;
+  margin-bottom: 36px;
+  border: 1px solid #ccc;
+  border: 0;
+  width: 100%;
+}
+
+.btn{
+  background-color: rgb(55, 85, 95);
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.intro{
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+} 
+.intro h1{
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+.intro p{
+  font-size: 20px;
+  line-height: 1.6;
+}
+footer{
+  text-align: center;
+  color: white;
+  padding: 24px 0;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+} 
+footer p{
+  font-size: 16px;
+}
+/* Common styles for all pages */
+ul{
+  background-color: rgb(55, 85, 95);
+  padding: 16px 0;
+  margin: 0;
+  text-align: center;
+}
+ul li a{
+  color: white;
+  text-decoration: none;
+}
+ul li a:hover{
+  color: #ffd700;
 }
